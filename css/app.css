@@ -1,0 +1,64 @@
+body{
+    margin: auto;
+    width: 100%;
+}
+
+#header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#header-img{
+    width: 25%;
+    height: 25%;
+}
+#nav-bar{
+    width: 25%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+a{
+    font-size: 0.5em;
+    text-decoration: none;
+    color: black;
+}
+.nav-link{
+    margin: 0px;
+    padding: 0px;
+}
+#form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#inputEmail{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.get_started{
+    background-color: yellow;
+    font-weight: bold;
+    border: none;
+    width: 30%;
+    margin-top: 10px;
+}
+#Features{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 50%;
+}
