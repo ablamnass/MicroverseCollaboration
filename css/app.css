@@ -53,12 +53,111 @@ a{
     margin-top: 10px;
 }
 #Features{
-    width: 90%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 img{
-    width: 50%;
+    width: 10%;
+}
+.ourfeature{
+    width:80% ;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    justify-content: space-between;
+    flex-wrap: wrap;  
+}
+.summary{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    align-items: flex-start;
+    width: 70%;
+}
+#products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#youvideo{
+    position: relative;
+    width: 70%;
+    height: 70%;
+    border: 1px solid red;
+    align-self: center;
+
+}
+#partrombone{
+    margin-top: 30px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+}
+.TROMBONE
+{
+    width: 30%;
+    border-top: 0px;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-color: black;
+    border-style: solid;
+}
+.TROMBONE > h1 {
+    background-color: gainsboro;
+    margin: 0px;
+    height: 1.5em;
+    text-align: center;
+}
+.plansummary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plan{
+    width: 45%;
+    text-align: center;
+}
+.Selectplan{
+    border: none;
+    background-color: gold;
+    width:30% ;
+    height:30% ;
+    margin-bottom:10px ;
+}
+#AboutUs
+{
+    width: 100%;
+    height:10%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    
+}
+.abtus{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    font-size: small;
+}
+#AboutUs #aboutus1
+{
+    background-color: gainsboro;
+    width: 70%;
 }
